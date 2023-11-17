@@ -336,10 +336,81 @@ li a {
 
 /* Footer section  */
 
+.footerHeader {
+  color: #fff;
+  font-family: DM Serif Display;
+  font-size: 60px;
+  font-weight: 400;
+  margin-top: 35px;
+}
+
 .footer {
   color: white;
 }
 
 .footerUl li {
   float: none;
+}
+.footer-possition {
+  margin-top: 75px;
+}
+#email-position {
+  margin-top: 20px;
+}
+#sign-up {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: #c0214a;
+  color: white;
+  margin-left: 7px;
+}
+
+#email {
+  width: 306px;
+  height: 45px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 4.9px 3px rgba(0, 0, 0, 0.25) inset;
+  padding-left: 15px;
+  border: none;
+  color: rgba(0, 0, 0, 0.2);
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.footer-style {
+  text-align: left;
+  margin-left: 250px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.footerUl {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.addressText {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footerLogo {
+  margin-top: -25px;
+}
+
+.footerh2 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
 }

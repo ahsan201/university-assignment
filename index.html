@@ -61,26 +61,133 @@
       </div>
     </section>
     <!-- Our Speacial Section Ends -->
-    <section class="cuisine">
-      <div class="cuisine-grid">
-        <div>
+    <!-- cuisine sect starts  -->
+    <section class="cuisineSection">
+      <div class="row">
+        <div class="col-1-2">
           <img
             src="Assets/Korean Cussing/Flag-of-South-Korea.png"
             alt=""
-            id="korean-flag"
+            class="cuisine-flag"
           />
         </div>
-        <div>
+        <div class="col-1-2">
           <img
             src="Assets/Korean Cussing/korean-cussing-food-photo.png"
             alt=""
-            id="korean-food"
+            class="cuisine-food"
           />
         </div>
-        <div><p id="t1">EXPERIENCE</p></div>
-        <div><p id="t2">THE REAL</p></div>
-        <div><p id="t3">KOREAN CUISINE</p></div>
+      </div>
+      <div class="row"><div class="col-1-2 c-t1">EXPERIENCE</div></div>
+      <div class="row"><div class="col-1-2 c-t2">THE REAL</div></div>
+      <div class="row"><div class="col-1-1 c-t3">KOREAN CUISINE</div></div>
+    </section>
+    <!-- cuisine sect ends  -->
+    <!-- map start  -->
+    <section class="mapSection">
+      <div class="row">
+        <div class="col-1-2">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2528.733989095982!2d-120.35854732310038!3d50.669199371634754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537e2dfc49ac8b5b%3A0x17e3f4c264b381d0!2sSahali%20Tongdak%20Korean%20Fried%20Chicken!5e0!3m2!1sen!2sca!4v1700188084848!5m2!1sen!2sca"
+            width="702px"
+            height="673px"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            id="map"
+          ></iframe>
+        </div>
+        <div class="col-1-2">
+          <div class="mapText">
+            <p id="m-t1">Where</p>
+            <p id="m-t2">Are We</p>
+            <p id="m-t3">LOCATED</p>
+            <button id="mapBtn">
+              Let's go<img
+                src="Assets/icons/arrow_outward.svg"
+                alt=""
+                style="margin-bottom: -5px"
+              />
+            </button>
+          </div>
+        </div>
       </div>
     </section>
+    <!-- map ends  -->
+    <!-- Delivery Section Starts  -->
+    <section class="deliverySection">
+      <div class="row">
+        <div class="col-1-3 delivery-text">
+          <p class="d-t1">We Deliver Food ...</p>
+          <p class="d-t2">
+            Craving our cuisine at home? Enjoy the convenience of Skip The
+            Dishes delivery. Browse our menu, place your order, and savor your
+            favorites without leaving the comfort of your home. Quick, easy, and
+            delicious!
+          </p>
+          <button id="deliveryBtn">Order Now</button>
+        </div>
+        <div class="col-1-2">
+          <div class="deliveryBlueBox">
+            <img src="Assets/deliver/electric_moped.png" alt="" id="moped" />
+            <img src="Assets/deliver/skip-logo.png" alt="" id="skip" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Delivery Section Ends  -->
+    <!-- Footer Starts  -->
+    <section>
+      <footer class="footer">
+        <div class="row">
+          <div class="col-1-4">
+            <img src="Assets/mainLogo.png" alt="" style="display: block" />
+            <img src="Assets/icons/distance.svg" alt="" />
+            <p class="addressText" style="display: inline">
+              910 Columbia St W #6, Kamloops, BC V2C 1L2
+            </p>
+            <br />
+            <img src="Assets/icons/call.svg" alt="" />
+            <p style="display: inline">+1 (236)-4254-500</p>
+          </div>
+          <div class="col-1-4">
+            <p>Quick Link</p>
+            <ul class="footerUl">
+              <li>About Us</li>
+              <li>Menu</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+          <div class="col-1-4">
+            <p>Other</p>
+            <ul class="footerUl">
+              <li>Health Safety</li>
+              <li>Terms Of Services</li>
+              <li>License</li>
+            </ul>
+          </div>
+          <div class="col-1-4">
+            <img
+              src="Assets/icons/Social Icons.svg"
+              alt=""
+              style="display: block"
+            />
+            <img
+              src="Assets/icons/Social Icons-1.svg"
+              alt=""
+              style="display: block"
+            />
+            <img
+              src="Assets/icons/Social Icons-2.svg"
+              alt=""
+              style="display: block"
+            />
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!-- Footer Ends  -->
   </body>
 </html>

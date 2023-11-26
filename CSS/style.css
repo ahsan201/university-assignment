@@ -414,3 +414,152 @@ li a {
   font-size: 24px;
   font-weight: 600;
 }
+
+/* Menu Section Starts */
+
+.menuCover {
+  width: 100%;
+  margin-top: 27px;
+}
+.menuItem {
+  margin-top: 97px;
+  margin-bottom: 97px;
+  display: grid;
+  gap: 30px;
+  grid-template-areas:
+    "box1 box2 box3 box4"
+    "box5 box6 box7 box8";
+
+  padding-bottom: 100px;
+}
+.food-box {
+  width: 293px;
+  height: 332px;
+}
+
+.foodImg {
+  position: relative;
+  border-radius: 20px;
+}
+.food-text-heading {
+  position: absolute;
+  z-index: 2;
+  color: white;
+  margin-top: 280px;
+  margin-left: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.food-text-details {
+  position: absolute;
+  z-index: 2;
+  color: white;
+  margin-top: 300px;
+  margin-left: 15px;
+}
+.transparent {
+  position: absolute;
+  z-index: 1;
+  border-radius: 20px;
+}
+f1 {
+  grid-area: box1;
+}
+f2 {
+  grid-area: box2;
+}
+f3 {
+  grid-area: box3;
+}
+f4 {
+  grid-area: box4;
+}
+f5 {
+  grid-area: box5;
+}
+f6 {
+  grid-area: box6;
+}
+f7 {
+  grid-area: box7;
+}
+f8 {
+  grid-area: box8;
+}
+
+.menuBG {
+  width: 100%;
+  background-color: #eeeeee;
+  border: none;
+  border-radius: 0px 0px 30px 30px;
+  position: relative;
+  z-index: 5;
+}
+
+.imgAbout1 {
+  width: 441px;
+  height: 601px;
+  float: right;
+}
+
+.aboutText1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.imgAbout2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.imgAbout2 {
+  width: 732px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.aboutText2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.textPart2 {
+  margin-top: 20px;
+}
+
+.textPart3 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 50px;
+}
+
+.textPart1 {
+  margin-top: 40px;
+}
+
+.aboutBG {
+  width: 100%;
+
+  background-color: #eeeeee;
+  border: none;
+  border-radius: 0px 0px 30px 30px;
+  position: relative;
+  z-index: 5;
+}

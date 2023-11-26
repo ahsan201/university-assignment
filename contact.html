@@ -3,7 +3,71 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Contact Us</title>
+    <!-- link css  -->
+    <link rel="stylesheet" href="CSS/reset.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!-- link Javascript  -->
+    <script src="Javascript/script.js"></script>
+    <!-- fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=DM+Serif+Display&family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
   </head>
-  <body></body>
+  <body>
+    <header class="container">
+      <div class="headerLinks">
+        <img src="Assets/mainLogo.png" alt="Main Logo" class="mainLogo" />
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/menu.html">Menu</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <button id="orderNow" class="heroBtn">Order Now</button>
+      </div>
+    </header>
+    <img
+      src="Assets/About/laura-limsenkhe-2a1-ttrWiw0-unsplash 1.png"
+      alt=""
+      class="menuCover"
+    />
+    <div class="formContainer container">
+      <h1 class="contactUsHeader">Contact Us</h1>
+      <form action="/">
+        <div class="input-control">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="name" />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" placeholder="email" />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="subject">Subject</label>
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="subject"
+          />
+          <div class="error"></div>
+        </div>
+        <div class="input-control">
+          <label for="massage">Your massage</label>
+          <input
+            type="text"
+            name="massage"
+            id="massage"
+            placeholder="massage"
+          />
+          <div class="error"></div>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>

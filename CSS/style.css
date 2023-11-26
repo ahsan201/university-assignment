@@ -563,3 +563,9 @@ f8 {
   position: relative;
   z-index: 5;
 }
+
+.contactUsHeader {
+  font-family: "DM Serif Display", serif;
+  font-size: 50px;
+  padding-top: 30px;
+}

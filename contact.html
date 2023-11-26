@@ -17,57 +17,141 @@
     rel="stylesheet"
   </head>
   <body>
-    <header class="container">
-      <div class="headerLinks">
-        <img src="Assets/mainLogo.png" alt="Main Logo" class="mainLogo" />
-        <ul>
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/menu.html">Menu</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <button id="orderNow" class="heroBtn">Order Now</button>
+    <div class="formBG">
+      <header class="container">
+        <div class="headerLinks">
+          <img src="Assets/mainLogo.png" alt="Main Logo" class="mainLogo" />
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/menu.html">Menu</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+          <button id="orderNow" class="heroBtn">Order Now</button>
+        </div>
+      </header>
+      <img
+        src="Assets/About/laura-limsenkhe-2a1-ttrWiw0-unsplash 1.png"
+        alt=""
+        class="menuCover"
+      />
+      <div class="formContainer container">
+        <h1 class="contactUsHeader">Contact Us</h1>
+        <form action="#" id="form">
+          <div class="input-control">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="name"
+              required
+            />
+            <div class="error"></div>
+          </div>
+          <div class="input-control">
+            <label for="email">Email</label>
+            <input
+              type="text"
+              name="email"
+              id="contactEmail"
+              placeholder="email"
+              required
+            />
+            <div class="error"></div>
+          </div>
+          <div class="input-control">
+            <label for="subject">Subject</label>
+            <input
+              type="text"
+              name="subject"
+              id="subject"
+              placeholder="subject"
+            />
+            <div class="error"></div>
+          </div>
+          <div class="input-control">
+            <p><label for="massage">Your massage</label></p>
+            <textarea
+              id="massage"
+              name="massage"
+              rows="4"
+              cols="50"
+              placeholder="your massage"
+            ></textarea>
+            <div class="error"></div>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
       </div>
-    </header>
-    <img
-      src="Assets/About/laura-limsenkhe-2a1-ttrWiw0-unsplash 1.png"
-      alt=""
-      class="menuCover"
-    />
-    <div class="formContainer container">
-      <h1 class="contactUsHeader">Contact Us</h1>
-      <form action="/">
-        <div class="input-control">
-          <label for="name">Name</label>
-          <input type="text" name="name" id="name" placeholder="name" />
-          <div class="error"></div>
-        </div>
-        <div class="input-control">
-          <label for="email">Email</label>
-          <input type="text" name="email" id="email" placeholder="email" />
-          <div class="error"></div>
-        </div>
-        <div class="input-control">
-          <label for="subject">Subject</label>
-          <input
-            type="text"
-            name="subject"
-            id="subject"
-            placeholder="subject"
-          />
-          <div class="error"></div>
-        </div>
-        <div class="input-control">
-          <label for="massage">Your massage</label>
-          <input
-            type="text"
-            name="massage"
-            id="massage"
-            placeholder="massage"
-          />
-          <div class="error"></div>
-        </div>
-      </form>
     </div>
+    <!-- Footer Starts  -->
+    <section class="menuFooter">
+      <footer class="footer">
+        <center>
+          <h2 class="footerHeader">Let’s Talk</h2>
+          <div id="email-position">
+            <form>
+              <input type="email" id="email" placeholder="email" />
+              <button id="sign-up">Sign Up</button>
+            </form>
+          </div>
+        </center>
+        <div class="row footer-style">
+          <div class="col-1-4 footerLogo addressText">
+            <img src="Assets/mainLogo.png" alt="" style="display: block" />
+            <img src="Assets/icons/distance.svg" alt="" />
+            <p style="display: inline">910 Columbia St W #6, Kamloops</p>
+            <br />
+            <br />
+            <img src="Assets/icons/call.svg" alt="" />
+            <p style="display: inline">+1 (236)-4254-500</p>
+          </div>
+          <div class="col-1-4">
+            <p class="footerh2">Quick Link</p>
+            <ul class="footerUl">
+              <li><a href="about.html">About Us</a></li>
+              <br />
+              <li><a href="menu.html">Menu</a></li>
+              <br />
+              <li><a href="contact.html">Contact Us</a></li>
+              <br />
+            </ul>
+          </div>
+          <div class="col-1-4">
+            <p class="footerh2">Other</p>
+            <ul class="footerUl">
+              <li>Health Safety</li>
+              <br />
+              <li>Terms Of Services</li>
+              <br />
+              <li>License</li>
+              <br />
+            </ul>
+          </div>
+          <div class="col-1-4">
+            <img
+              src="Assets/icons/Social Icons.svg"
+              alt=""
+              style="display: block"
+            />
+            <br />
+            <img
+              src="Assets/icons/Social Icons-1.svg"
+              alt=""
+              style="display: block"
+            />
+            <br />
+            <img
+              src="Assets/icons/Social Icons-2.svg"
+              alt=""
+              style="display: block"
+            />
+            <br />
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!-- Footer Ends  -->
   </body>
 </html>

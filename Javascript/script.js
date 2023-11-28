@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
   form.addEventListener("submit", function (event) {
     event.preventDefault();
     validateForm();
+    // This fulfils requirement 5.6(c)
+    alert("Form Submited");
   });
 
   function setError(element, message) {
@@ -27,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
     inputControl.classList.add("success");
     inputControl.classList.remove("error");
   }
-
+  // This fulfils requirement 5.6(b)
   function isValidEmail(emailValue) {
     const re =
       /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -73,3 +75,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 });
+
+// This fulfils requirement 5.1(f)
+// Last Updated
+const Lastupdated = document.querySelector(".lastUpdated");
+
+const date = new Date("November 26,2023");
+// <!-- This fulfils requirement 5.1(f)-->
+Lastupdated.innerHTML = `Last Updated: ${date.getDate()}/${
+  date.getMonth() + 1
+}/${date.getFullYear()} &copy; Ahsan habib Niloy`;

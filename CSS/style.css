@@ -28,6 +28,7 @@ html {
   padding: 0.938rem;
 }
 
+/* This fulfils requirement 5.2(f)  */
 .mainLogo {
   float: left;
 }
@@ -86,6 +87,7 @@ li a {
   position: absolute;
   left: -155px;
   top: 167px;
+  /* This fulfils requirement 5.2(g)  */
   filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.25));
 }
 
@@ -95,6 +97,8 @@ li a {
   left: 335px;
   top: 537px;
   filter: drop-shadow(10px 4px 4px #00000040) blur(2px);
+  /* This fulfils requirement 5.2(h)  */
+  opacity: 0.7;
   /* filter: blur(2px); */
 }
 
@@ -104,6 +108,7 @@ li a {
   top: 134px;
   right: 363px;
   filter: drop-shadow(10px 4px 4px #00000040) blur(6px);
+  opacity: 0.5;
   /* filter: blur(6px); */
 }
 
@@ -124,6 +129,7 @@ li a {
   height: 57.5rem;
   width: 100%;
   border-radius: 0px 0px 30px 30px;
+  /* This fulfils requirement 5.1(c)  */
   background-color: #262626;
   margin-top: -30px;
   position: relative;
@@ -163,6 +169,7 @@ li a {
 #arrow-forward {
   float: right;
 }
+/* This fulfils requirement 5.2(e)  */
 /* Our Speacial Ends  */
 /* cuisine secction starts  */
 .cuisineSection {
@@ -389,7 +396,7 @@ li a {
   margin-top: 75px;
   margin-bottom: 75px;
 }
-
+/* This fulfils requirement 5.2(b)  */
 .footerUl li a {
   color: #fff;
   font-family: Poppins;
@@ -577,7 +584,7 @@ f8 {
   font-size: 50px;
   padding-top: 30px;
 }
-
+/* This fulfils requirement 5.3(b)  */
 /* Form  starts*/
 #form {
   width: 400px;
@@ -611,6 +618,7 @@ f8 {
   width: 94%;
 }
 
+/* This fulfils requirement 5.3(c)  */
 .input-control:focus {
   outline: 0;
 }
@@ -647,4 +655,35 @@ f8 {
 
 .formContainer {
   padding-bottom: 10vh;
+}
+
+/* This fulfils requirement 5.1(c)  */
+.imgBG {
+  width: 100%;
+  height: 320px;
+  background-image: url(/Assets/About/jakub-kapusnak-4f4YZfDMLeU-unsplash\ 1.png);
+  background-image: cover;
+  background-repeat: no-repeat;
+  margin-left: 200px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ffffff;
+  border-collapse: collapse;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+th,
+td {
+  padding: 10px 35px;
+  text-align: center;
+}
+
+center h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  padding-bottom: 20px;
 }

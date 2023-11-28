@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="CSS/reset.css" />
     <link rel="stylesheet" href="CSS/style.css" />
     <!-- link Javascript  -->
-    <script src="Javascript/script.js"></script>
+    <script src="Javascript/script.js" defer></script>
     <!-- fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,14 +21,15 @@
   <body>
     <!-- Website cover Starts -->
     <section class="heroSection">
+      <!-- This fulfils requirement 5.1(e)  -->
       <header class="container">
         <div class="headerLinks">
           <img src="Assets/mainLogo.png" alt="Main Logo" class="mainLogo" />
           <ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/menu.html">Menu</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
           <button id="orderNow" class="heroBtn">Order Now</button>
         </div>
@@ -45,23 +46,7 @@
       </header>
     </section>
     <!-- Website cover Ends -->
-    <!-- Our Speacial Section Starts -->
-    <section class="ourSpeacialSection">
-      <center><p id="spacialText">Our Speacial</p></center>
-      <div class="order-platform">
-        <img src="Assets/Our-special-photo/ORDER-PLATFORM.png" alt="" />
-        <p id="order-platform-name">ANGRY CHICKEN</p>
-      </div>
-      <div class="arrow-position">
-        <img src="Assets/icons/arrow_back_ios.svg" alt="" id="arrow-back" />
-        <img
-          src="Assets/icons/arrow_forward_ios.svg"
-          alt=""
-          id="arrow-forward"
-        />
-      </div>
-    </section>
-    <!-- Our Speacial Section Ends -->
+
     <!-- cuisine sect starts  -->
     <section class="cuisineSection">
       <div class="row">
@@ -73,6 +58,7 @@
           />
         </div>
         <div class="col-1-2">
+          <!-- This fulfils requirement 5.1(b) -->
           <img
             src="Assets/Korean Cussing/korean-cussing-food-photo.png"
             alt=""
@@ -106,7 +92,13 @@
             <p id="m-t2">Are We</p>
             <p id="m-t3">LOCATED</p>
             <button id="mapBtn">
-              Let's go<img
+              <a
+                href="https://maps.app.goo.gl/4af2n6WJAR4zapSS9"
+                style="text-decoration: none; color: white"
+                target="”_blank”"
+                >Let's go</a
+              >
+              <img
                 src="Assets/icons/arrow_outward.svg"
                 alt=""
                 style="margin-bottom: -5px"
@@ -142,8 +134,9 @@
     <!-- Footer Starts  -->
     <section>
       <footer class="footer">
+        <!-- This fulfils requirement 5.1(d) -->
         <center>
-          <h2 class="footerHeader">Let’s Talk</h2>
+          <h2 class="footerHeader">Let’s Talk &hearts;</h2>
           <div id="email-position">
             <form>
               <input type="email" id="email" placeholder="email" />
@@ -207,5 +200,7 @@
       </footer>
     </section>
     <!-- Footer Ends  -->
+    This fulfils requirement 5.6(a)
+    <div class="lastUpdated" style="color: white"></div>
   </body>
 </html>
